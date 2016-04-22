@@ -1,0 +1,24 @@
+######################## PROVIDE CREDENTIALS ####################
+
+# RabbitMQ credentials
+RabbitMQHost=localhost
+RabbitMQUsername=guest
+RabbitMQPassword=guest
+RabbitMQPort=5672
+RabbitMQVirtualHost=/
+
+# Queue names we want to subscribe to
+DefaultQueue=cyclops
+
+
+# RabbitMQ credentials
+RabbitMQClientHost=localhost
+RabbitMQClientUsername=guest
+RabbitMQClientPassword=guest
+RabbitMQClientPort=5672s
+RabbitMQClientVirtualHost=/
+
+# Queue names we want to subscribe to
+DefaultClientQueue=udr
+
+
