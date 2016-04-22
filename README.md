@@ -3,33 +3,33 @@
 # <code>Openstack Collector</code>
 
 ## Openstack Collector microservice
-Openstack Collector micro service as part of <a href="http://icclab.github.io/cyclops">Cyclops framework</a> is XYZ.
+Openstack Collector micro service as part of <a href="http://icclab.github.io/cyclops">Cyclops framework</a>.
 
 ### Download
-     $ git clone https://github.com/icclab/cyclops-collector-openstacr.git
+     $ git clone https://github.com/icclab/cyclops-collector-openstack.git
 ### Installation
 If you have already deployed <a href="https://github.com/icclab/cyclops-udr" target="_blank">UDR</a> microservice, you can skip <code>install_prereq</code> script, as Openstack Collector has the same prerequisites.
 
-     $ cd cyclops-collector-openstacr/install
+     $ cd cyclops-collector-openstack/install
      $ chmod +x ./*
      $ bash install_prereq.sh
      $ bash setup_openstack_collector.sh
 
 #### Configuration
  * At the end of the installation process you will be asked for your deployment credentials and to modify any configuration parameters, **please do not ignore this step.**
- * If there is a need to update your configuration, you can find it stored here cyclops-collector-openstacr/src/main/webapp/WEB-INF/configuration.txt
+ * If there is a need to update your configuration, you can find it stored here cyclops-collector-openstack/src/main/webapp/WEB-INF/configuration.txt
 
 ### Deployment
      $ bash deploy_openstack_collector.sh
 
 ### Documentation
-  Visit the <a href="https://github.com/icclab/cyclops-collector-openstacr/wiki">Wiki</a> for detailed explanation and API reference guide.
+  Visit the <a href="https://github.com/icclab/cyclops-collector-openstack/wiki">Wiki</a> for detailed explanation and API reference guide.
 
 ### Cyclops architecture
 <img align="middle" src="http://blog.zhaw.ch/icclab/files/2013/05/overall_architecture.png" alt="CYCLOPS Architecture" height="500" width="600"></img>
 
 ### Bugs and issues
-  To report any bugs or issues, please use <a href="https://github.com/icclab/cyclops-collector-openstacr/issues">Github Issues</a>
+  To report any bugs or issues, please use <a href="https://github.com/icclab/cyclops-collector-openstack/issues">Github Issues</a>
   
 ### Communication
   * Email: icclab-rcb-cyclops[at]dornbirn[dot]zhaw[dot]ch
